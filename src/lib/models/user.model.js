@@ -1,4 +1,6 @@
-const mongoose = new mongoose.Schema(
+import mongoose from "mongoose";
+
+const userSchema = new mongoose.Schema(
   {
     clerkId: {
       type: String,
